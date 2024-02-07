@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.slide-bar{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upper-part{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin-top: 0.4rem;
+}
+
+.upper-part div{
+    margin-left: 1.75rem;
+    font-size: 1.25rem;
+}
+
+.upper-part i{
+    margin-right: 1rem;
+}
+
+.lower-part{
+    height: 100%;
+    background-color: #121212;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+
+.library-part{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    margin: 0.75rem 1rem 0rem 1.75rem;
+}
+
+.library-part i{
+    margin-right: 1rem;
+}
+
+.playlist-part{
+    margin: 2rem 0.5rem ;
+    /* background-color: #232323; */
+    border-radius: 10px;
+}
+
+.box-1{
+    background-color: #232323;
+    border-radius: 10px;
+    height: 12rem;
+    margin-bottom: 1rem;
+   
+}
+
+.para-1{
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 1.4rem;
+   
+
+}
+
+.para-2{
+    font-size: 0.8rem;
+    margin: 1.4rem;
+    opacity: 0.7;
+}
+
+button{
+    width: auto;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 25px;
+}
+ .box-1 button{
+    width: auto;
+    margin-left: 1.4rem;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 25px;
+}
+
+.main-part{
+    height: 100%;
+    background-color: #121212;
+    margin: 0.4rem;
+    border-radius: 10px;
+    width: 100%;
+    overflow:scroll;
+}
+
+.nav-bar{
+    width: 100%;
+    position:sticky;
+    top: 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.3rem;
+  z-index: 10;
+   
+}
+
+.errow-div{
+    margin-left: 2rem;
+    font-size: 1.4rem;
+}
+
+.errow-div i{
+    margin-right: 1rem;
+
+}
+
+.install-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.install-div button{
+    margin-right: 1rem;
+} 
+ .install-button{
+    background-color: black;
+    color: white;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+ }
+
+ .install-button i{
+    margin-right: 0.25rem;
+ }
+
+ .main-content{
+    margin: 0.5rem 0rem 1rem 1.75rem;
+ }
+
+ .main-content h2{
+    margin: 1rem 0rem;
+ }
+
+ .theam-box{
+    width: 15rem;
+    height: 20rem;
+    background-color:#232323;
+    padding: 0.25em;
+    border-radius: 10px;
+    margin-right: 1.25rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+ }
+
+ .theam-box img{
+    width: 15rem;
+    height: 12rem;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 1rem;
+ }
+
+ .theam-box .theam-p1{
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+ }
+
+ .theam-box .theam-p2{
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.7;
+ }
+
+ .theam-songs{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .main-part::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.red{
+    background: red;
+}
